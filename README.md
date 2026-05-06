@@ -58,7 +58,7 @@ gitihub/
 | 1     | Mild              |
 | 2     | Moderate          |
 | 3     | Severe            |
-| 4     | Carcinoma in situ |
+| 4     | Carcinoma |
 
 ---
 
