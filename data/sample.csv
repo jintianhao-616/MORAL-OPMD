@@ -1,0 +1,14 @@
+id,whitelight_image,fluorescent_image,Lesion location,Clinical diagnosis,label_5cls,label_2cls
+
+001_olk,data/sample_images/001_wli_1.jpg,data/sample_images/001_afi_1.jpg,left ventral tongue,oral leukoplakia,2,1
+001_olk,data/sample_images/001_wli_1.jpg,data/sample_images/001_afi_2.jpg,left ventral tongue,oral leukoplakia,2,1
+001_olk,data/sample_images/001_wli_2.jpg,data/sample_images/001_afi_1.jpg,left ventral tongue,oral leukoplakia,2,1
+
+002_olp,data/sample_images/002_wli_1.jpg,data/sample_images/002_afi_1.jpg,buccal mucosa,oral lichen planus,0,0
+002_olp,data/sample_images/002_wli_1.jpg,data/sample_images/002_afi_2.jpg,buccal mucosa,oral lichen planus,0,0
+
+003_osf,data/sample_images/003_wli_1.jpg,data/sample_images/003_afi_1.jpg,buccal mucosa,oral submucous fibrosis,2,1
+003_osf,data/sample_images/003_wli_2.jpg,data/sample_images/003_afi_1.jpg,buccal mucosa,oral submucous fibrosis,2,1
+
+004_non,data/sample_images/004_wli_1.jpg,data/sample_images/004_afi_1.jpg,tongue,non-opmd lesion,0,0
+004_non,data/sample_images/004_wli_2.jpg,data/sample_images/004_afi_1.jpg,tongue,non-opmd lesion,0,0
