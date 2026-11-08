@@ -1,0 +1,52 @@
+{
+  "source_folder_url": "https://drive.google.com/drive/folders/1ulnSnaLbFlO7_KqerZzFEHOLW2msXOAd",
+  "checkpoint_filename": "best_patient_mean_macro_f1.pt",
+  "verification": "Folder listings, filenames and file sizes verified; checkpoint contents were not downloaded or loaded.",
+  "models": [
+    {
+      "model_kind": "baseline_concat",
+      "folder": "01_baseline_concat",
+      "relative_checkpoint_path": "01_baseline_concat/best_patient_mean_macro_f1.pt",
+      "folder_url": "https://drive.google.com/drive/folders/1VjxiKc2NZifzlEzzWiOIjKm_Sgw__bvl",
+      "file_url": "https://drive.google.com/file/d/1wUDd_FWQqRhP3JJAlYsIafVh64p1PQUc/view?usp=drivesdk",
+      "file_id": "1wUDd_FWQqRhP3JJAlYsIafVh64p1PQUc",
+      "size_bytes": 607907649
+    },
+    {
+      "model_kind": "mlp_fusion",
+      "folder": "02_mlp_fusion",
+      "relative_checkpoint_path": "02_mlp_fusion/best_patient_mean_macro_f1.pt",
+      "folder_url": "https://drive.google.com/drive/folders/1PnjegR1RZJGF6SmHfP_0LYEzIiyZN7I5",
+      "file_url": "https://drive.google.com/file/d/1e_WFLreTMPIGGGM2udyThc_2dJNh-ZvV/view?usp=drivesdk",
+      "file_id": "1e_WFLreTMPIGGGM2udyThc_2dJNh-ZvV",
+      "size_bytes": 611558985
+    },
+    {
+      "model_kind": "cross_attention",
+      "folder": "03_cross_attention",
+      "relative_checkpoint_path": "03_cross_attention/best_patient_mean_macro_f1.pt",
+      "folder_url": "https://drive.google.com/drive/folders/107reNXyOPpUwNa_eKDluHeHn2RiQ3a8P",
+      "file_url": "https://drive.google.com/file/d/1lRua3T3v6U7fPSdi696FEdmMs4OSUMEZ/view?usp=drivesdk",
+      "file_id": "1lRua3T3v6U7fPSdi696FEdmMs4OSUMEZ",
+      "size_bytes": 660640407
+    },
+    {
+      "model_kind": "cross_attention_ordinal",
+      "folder": "04_cross_attention_ordinal",
+      "relative_checkpoint_path": "04_cross_attention_ordinal/best_patient_mean_macro_f1.pt",
+      "folder_url": "https://drive.google.com/drive/folders/1huhpVFPqK2AyDHN-bZJVqMg0i_3IFRUw",
+      "file_url": "https://drive.google.com/file/d/1ROxPD1X0VjOgdJLBKepjnHZPSNdjyU_0/view?usp=drivesdk",
+      "file_id": "1ROxPD1X0VjOgdJLBKepjnHZPSNdjyU_0",
+      "size_bytes": 660649273
+    },
+    {
+      "model_kind": "full",
+      "folder": "05_full_cross_attention_ordinal_contrastive_warmup",
+      "relative_checkpoint_path": "05_full_cross_attention_ordinal_contrastive_warmup/best_patient_mean_macro_f1.pt",
+      "folder_url": "https://drive.google.com/drive/folders/1scbg7H2DirkktIKjY8v22PBSlUBu2jCd",
+      "file_url": "https://drive.google.com/file/d/1zkAuwsOaM3Sq3yfhfdiNhro_bPg5G8uF/view?usp=drivesdk",
+      "file_id": "1zkAuwsOaM3Sq3yfhfdiNhro_bPg5G8uF",
+      "size_bytes": 660649337
+    }
+  ]
+}
