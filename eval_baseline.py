@@ -1,3 +1,8 @@
+# LEGACY TWO-MODEL IMPLEMENTATION.
+# Retained for older baseline/optimized checkpoints only.
+# For the current five architectures, see 01_*.py through 05_*.py and eval_moral_opmd.py.
+# These legacy weights are not interchangeable with the five-architecture release.
+
 # ============================================================
 # Baseline Evaluation Script (FINAL VERSION)
 # - Fully aligned with train_baseline_moral_opmd.py

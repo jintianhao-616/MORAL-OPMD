@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# MORAL-OPMD local experiments and clinical data
+experiments/
+outputs/
+figures/
+eval_outputs/
+data/processed/
+*.pt
+*.pth
+*.safetensors
