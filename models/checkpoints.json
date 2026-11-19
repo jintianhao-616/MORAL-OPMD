@@ -1,0 +1,80 @@
+{
+  "source_folder_url": "https://drive.google.com/drive/folders/1ulnSnaLbFlO7_KqerZzFEHOLW2msXOAd",
+  "weights_format": "pure_state_dict",
+  "inference_defaults": {
+    "dim": 512,
+    "heads": 8,
+    "size": 224,
+    "max_text_len": 64,
+    "pair_policy": "all",
+    "bert_path": "google-bert/bert-base-chinese"
+  },
+  "verification": {
+    "checked_on": "2026-11-19",
+    "filenames_sizes_and_public_reader_permissions_verified": true,
+    "checkpoint_contents_downloaded": false,
+    "real_checkpoint_inference_tested": false
+  },
+  "models": [
+    {
+      "model_number": 1,
+      "model_kind": "baseline_concat",
+      "folder": "01_baseline_concat",
+      "filename": "M1_weights.pt",
+      "relative_checkpoint_path": "01_baseline_concat/M1_weights.pt",
+      "folder_url": "https://drive.google.com/drive/folders/1VjxiKc2NZifzlEzzWiOIjKm_Sgw__bvl",
+      "file_url": "https://drive.google.com/file/d/11buhRsn_bTiOQXvxPQN3yHeYTE7x08uu/view?usp=drivesdk",
+      "file_id": "11buhRsn_bTiOQXvxPQN3yHeYTE7x08uu",
+      "size_bytes": 607843148,
+      "public_reader_access": true
+    },
+    {
+      "model_number": 2,
+      "model_kind": "mlp_fusion",
+      "folder": "02_mlp_fusion",
+      "filename": "M2_weights.pt",
+      "relative_checkpoint_path": "02_mlp_fusion/M2_weights.pt",
+      "folder_url": "https://drive.google.com/drive/folders/1PnjegR1RZJGF6SmHfP_0LYEzIiyZN7I5",
+      "file_url": "https://drive.google.com/file/d/1FI0_jVBPl6Z2nQWvjY_53f17IhXKLeAX/view?usp=drivesdk",
+      "file_id": "1FI0_jVBPl6Z2nQWvjY_53f17IhXKLeAX",
+      "size_bytes": 611494012,
+      "public_reader_access": true
+    },
+    {
+      "model_number": 3,
+      "model_kind": "cross_attention",
+      "folder": "03_cross_attention",
+      "filename": "M3_weights.pt",
+      "relative_checkpoint_path": "03_cross_attention/M3_weights.pt",
+      "folder_url": "https://drive.google.com/drive/folders/107reNXyOPpUwNa_eKDluHeHn2RiQ3a8P",
+      "file_url": "https://drive.google.com/file/d/1DAROyskK845muTC3pZNhCFZ2BP4ZiiU8/view?usp=drivesdk",
+      "file_id": "1DAROyskK845muTC3pZNhCFZ2BP4ZiiU8",
+      "size_bytes": 660573856,
+      "public_reader_access": true
+    },
+    {
+      "model_number": 4,
+      "model_kind": "cross_attention_ordinal",
+      "folder": "04_cross_attention_ordinal",
+      "filename": "M4_weights.pt",
+      "relative_checkpoint_path": "04_cross_attention_ordinal/M4_weights.pt",
+      "folder_url": "https://drive.google.com/drive/folders/1huhpVFPqK2AyDHN-bZJVqMg0i_3IFRUw",
+      "file_url": "https://drive.google.com/file/d/1QRD-homu06JWshibfqXUqCxSWFIHUoIG/view?usp=drivesdk",
+      "file_id": "1QRD-homu06JWshibfqXUqCxSWFIHUoIG",
+      "size_bytes": 660582620,
+      "public_reader_access": true
+    },
+    {
+      "model_number": 5,
+      "model_kind": "full",
+      "folder": "05_full_cross_attention_ordinal_contrastive_warmup",
+      "filename": "M5_weights.pt",
+      "relative_checkpoint_path": "05_full_cross_attention_ordinal_contrastive_warmup/M5_weights.pt",
+      "folder_url": "https://drive.google.com/drive/folders/1scbg7H2DirkktIKjY8v22PBSlUBu2jCd",
+      "file_url": "https://drive.google.com/file/d/1hKcpSsTKB4v6S6KZK1PeYVx7JcqHOiHJ/view?usp=drivesdk",
+      "file_id": "1hKcpSsTKB4v6S6KZK1PeYVx7JcqHOiHJ",
+      "size_bytes": 660582620,
+      "public_reader_access": true
+    }
+  ]
+}
